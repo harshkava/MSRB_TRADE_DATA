@@ -1,14 +1,15 @@
 # MSRB_TRADE_DATA
-Scrape trade data from Municipal Securities Rulemaking Board(MSRB) and create a dataset file in CSV format
+
+This repository contains code to scrape trade data from Municipal Securities Rulemaking Board(MSRB) website using python and selenium.
 
 
+Detailed Description: 
 
 
-Input: CUSIPs | Output: Trade_Results.csv
-
-This code uses TRADE Search Tab to get all transaction data from Jan 2019 to Jul 2019
+Inputs to Python Code:: List of CUSIPs | Output Generated:: Trade_Results.csv 
 
 
-Trade Activity| Actively Traded Securities | Recent Trades |Trade Search
+The code is designed to make use of TRADE Search (Window) available at the MSRB website to fetch all transaction data from Jan 2019 to Jul 2019.
 
-![MSRB Trade Search Window]https://emma.msrb.org/TradeData/Search
+
+Web-Address: https://emma.msrb.org/TradeData/Search
